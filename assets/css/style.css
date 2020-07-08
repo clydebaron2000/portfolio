@@ -11,6 +11,7 @@ nav {
     overflow: hidden;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
+    padding: 0px;
 }
 
 nav a {
@@ -27,7 +28,7 @@ nav a:hover {
     color: black;
 }
 
-nav a.active {
+nav a:active {
     text-decoration: underline;
 }
 
@@ -38,6 +39,14 @@ nav a.active {
     font-weight: bold;
 }
 
+nav a.active {
+    text-decoration: underline;
+}
+
+#home:hover {
+    background-color: #3d6191;
+}
+
 main {
     width: 960px;
     background-color: #ffffff;
@@ -46,6 +55,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 footer {
