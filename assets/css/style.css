@@ -24,27 +24,24 @@ nav a {
     font-size: 17px;
 }
 
-nav a:hover {
+.nav-item a:hover {
     color: black;
+    text-decoration: underline;
 }
 
-nav a:active {
+.active a {
+    font-weight: bold;
     text-decoration: underline;
 }
 
 #home {
-    background-color: #4aaaa5;
-    text-decoration: emphasis;
-    color: white;
+    color: #4aaaa5;
     font-weight: bold;
 }
 
-nav a.active {
-    text-decoration: underline;
-}
-
 #home:hover {
-    background-color: #3d6191;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 main {
@@ -85,10 +82,23 @@ article {
 }
 
 #profile {
+    display: block;
     float: left;
     width: 200px;
     height: auto;
-    margin: 15px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px 15px 15px 0px;
+}
+
+@media screen and (max-width: 960px) {
+    main {
+        width: auto;
+    }
+    #profile {
+        width: flex;
+        float: none;
+        margin: 0px auto 0px auto;
+    }
+    h1 {
+        padding-bottom: 10px;
+    }
 }
