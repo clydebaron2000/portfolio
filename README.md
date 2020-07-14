@@ -9,28 +9,17 @@ The active URL for this documant is as follows:
 https://clydebaron2000.github.io/resume/
 
 Click the link to view the full project via Github Pages.
-<!-- README.md files support html/css code! -->
+
 ## Webpage Preview:
 ### Desktop View:
-<style>
-    #desktop img{
-        width:200px
-    }
-    #mobile img{
-        height:200px;
-    }
-</style>
-<section id="desktop">
-    <img src="assets/images/ABOUT.PNG">
-    <img src="assets/images/PORTFOLIO.PNG">
-    <img src="assets/images/CONTACT.PNG">
-</section>
+
+<img src="assets/images/About.PNG"  width="200px"/>
+<img src="assets/images/Portfolio.PNG" width="200px"/>
+<img src="assets/images/Contact.PNG" width="200px"/>
 ### Mobile View:
-<section id="mobile">
-    <img src="assets/images/ABOUTMOBILE.PNG">
-    <img src="assets/images/PORTFOLIOMOBILE.PNG">
-    <img src="assets/images/CONTACTMOBILE.PNG">
-</section>
+<img src="assets/images/Aboutmobile.PNG" height="100px"/>
+<img src="assets/images/Portfoliomobile.PNG" height="100px"/>
+<img src="assets/images/Contactmobile.PNG" height="100px"/>
 ## Author
 
 * **Clyde Baron Rapinan** -*Initial work*- https://github.com/clydebaron2000
