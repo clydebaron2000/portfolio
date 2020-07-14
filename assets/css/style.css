@@ -1,6 +1,7 @@
 body {
     margin: 0;
     color: #555555;
+    background-image: url("../images/asfalt-darkbackground.png");
 }
 
 header {
@@ -63,9 +64,10 @@ footer {
     text-align: center;
     font-size: 9px;
     position: fixed;
-    width: 100%;
+    width: 101%;
     left: 0;
-    bottom: 0;
+    bottom: -7px;
+    z-index: 999999;
 }
 
 h1 {
@@ -89,16 +91,74 @@ article {
     margin: 0px 15px 15px 0px;
 }
 
+#submit {
+    float: right;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+}
+
+.container {
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card {
+    border: 0px;
+}
+
+.card a img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.card a:hover {
+    filter: brightness(120%);
+}
+
+.card a .card-body {
+    padding: 10px;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 4vw;
+}
+
 @media screen and (max-width: 960px) {
     main {
         width: auto;
     }
     #profile {
-        width: flex;
+        width: 50%;
         float: none;
-        margin: 0px auto 0px auto;
+        margin: 20px auto 20px auto;
     }
     h1 {
         padding-bottom: 10px;
+    }
+    #submit {
+        margin-top: 20px;
+        width: 100%;
+        float: left;
+    }
+    .card {
+        padding-bottom: 10px;
+    }
+    .card a .card-body {
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #profile {
+        width: 75%;
+    }
+    #home span {
+        display: none;
     }
 }
