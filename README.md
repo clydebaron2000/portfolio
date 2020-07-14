@@ -9,7 +9,7 @@ The active URL for this documant is as follows:
 https://clydebaron2000.github.io/resume/
 
 Click the link to view the full project via Github Pages.
-
+<!-- README.md files support html/css code! -->
 ## Webpage Preview:
 ### Desktop View:
 <style>

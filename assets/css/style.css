@@ -2,7 +2,11 @@ body {
     margin: 0;
     color: #555555;
     background-image: url("../images/asfalt-darkbackground.png");
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
+
+
+/* nav bar */
 
 header {
     font-family: Georgia, Times, Times New Roman, serif;
@@ -79,10 +83,6 @@ h1 {
     border-bottom: 1px solid #dddddd;
 }
 
-article {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
-
 #profile {
     display: block;
     float: left;
@@ -91,15 +91,17 @@ article {
     margin: 0px 15px 15px 0px;
 }
 
+
+/* submit button */
+
 #submit {
     float: right;
     margin-top: 10px;
     background-color: #4aaaa5;
 }
 
-.container {
-    position: relative;
-}
+
+/* card links for portfolio */
 
 a:hover {
     text-decoration: none;
@@ -129,6 +131,9 @@ a:hover {
     font-size: 4vw;
 }
 
+
+/* resizing */
+
 @media screen and (max-width: 960px) {
     main {
         width: auto;
@@ -153,6 +158,9 @@ a:hover {
         padding: 1px;
     }
 }
+
+
+/* additional sizing */
 
 @media screen and (max-width: 640px) {
     #profile {
