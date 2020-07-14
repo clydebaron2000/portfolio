@@ -21,6 +21,7 @@ Click the link to view the full project via Github Pages.
 <img src="assets/images/Aboutmobile.PNG" height="100px"/>
 <img src="assets/images/Portfoliomobile.PNG" height="100px"/>
 <img src="assets/images/Contactmobile.PNG" height="100px"/>
+
 ## Author
 
 * **Clyde Baron Rapinan** -*Initial work*- https://github.com/clydebaron2000
