@@ -4,7 +4,7 @@ An HTML resume site that utilizes Bootstrap to professionally showcase my skills
 
 ## Access to the HTML
 
-The active URL for this documant is as follows:
+The active URL for this document is as follows:
 
 https://clydebaron2000.github.io/resume/
 
@@ -24,7 +24,8 @@ Click the link to view the full project via Github Pages.
 
 ## Author
 
-* **Clyde Baron Rapinan** -*Initial work*- https://github.com/clydebaron2000
+* **Clyde Baron Rapinan** 
+ https://github.com/clydebaron2000
 
 ## Acknowledgments
 
