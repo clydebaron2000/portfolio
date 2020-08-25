@@ -131,6 +131,22 @@ a:hover {
     font-size: 4vw;
 }
 
+.social-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #4aaaa5;
+}
+
+a>img {
+    max-height: 250px;
+}
+
+#portfolio>.card {
+    margin-bottom: 10px;
+}
+
 
 /* resizing */
 
