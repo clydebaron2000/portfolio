@@ -1,6 +1,6 @@
 # Personal Resume
 
-An HTML resume site that utilizes Bootstrap to professionally showcase my skillset and experience.
+An HTML resume site that utilizes SCSS, animations, jquery, and much more to professionally showcase my project experience and resume.
 
 ## Access to the HTML
 
@@ -10,18 +10,6 @@ https://clydebaron2000.github.io/resume/
 
 Click the link to view the full project via Github Pages.
 
-## Webpage Preview:
-### Desktop View:
-
-<img src="assets/images/About.PNG"  width="200px"/>
-<img src="assets/images/Portfolio.PNG" width="200px"/>
-<img src="assets/images/Contact.PNG" width="200px"/>
-
-### Mobile View:
-<img src="assets/images/Aboutmobile.PNG" height="100px"/>
-<img src="assets/images/Portfoliomobile.PNG" height="100px"/>
-<img src="assets/images/Contactmobile.PNG" height="100px"/>
-
 ## Author
 
 * **Clyde Baron Rapinan** 
@@ -30,3 +18,5 @@ Click the link to view the full project via Github Pages.
 ## Acknowledgments
 
 * UCSD Full Stack Bootcamp for the assignment
+* www.freecodecamp.org for their tutorial on SCSS
+* User kparzecki from [codepen.io](https://codepen.io/kparzecki/pen/RYzZwG) for his perspective cards

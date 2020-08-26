@@ -10,10 +10,10 @@
         }
     });
 })();
-const data = (function() {
+(function() {
     var json = null;
     $.ajax({
-        'async': false,
+        'async': true,
         'global': true,
         'url': "JSON/data.json",
         'dataType': "json",
