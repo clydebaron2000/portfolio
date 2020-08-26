@@ -4,7 +4,7 @@
     $.ajax({
         'async': true,
         'global': false,
-        'url': "JSON/sources.json",
+        'url': "dist/JSON/sources.json",
         'dataType': "json",
         'success': function(data) {
             for (const href of data.stylesheets) $("head").append($(`<link rel="stylesheet" href="${href}">`));
@@ -17,7 +17,7 @@ const data = (function() {
     $.ajax({
         'async': false,
         'global': true,
-        'url': "JSON/data.json",
+        'url': "dist/JSON/data.json",
         'dataType': "json",
         'success': function(data) {
             json = data;
@@ -54,3 +54,4 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+$('footer').text("Last updated " + data.lastUpdated);

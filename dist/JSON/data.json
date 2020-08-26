@@ -22,7 +22,7 @@
         "section": "Project",
         "careerField": "Web Development",
         "source": "",
-        "img": "img/codeblock.jpg",
+        "img": "dist/img/codeblock.jpg",
         "skillsUsed": {
             "technical": ["HTML5", "CSS3", "JS", "APIs", "SCSS", "moment.js", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub"],
             "soft": ["Protyping", "organization", "problem-solving"]
@@ -35,7 +35,7 @@
         "section": "Project",
         "careerField": "Web Development",
         "source": "https://github.com/clydebaron2000/Covid-Danger-Data",
-        "img": "img/CDD.PNG",
+        "img": "dist/img/CDD.PNG",
         "skillsUsed": {
             "technical": ["HTML5", "CSS3", "JS", "APIs", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub"],
             "soft": ["Protyping", "teamwork", "leadership", "organization", "problem-solving"]
@@ -48,7 +48,7 @@
         "section": "Project",
         "careerField": "Web Development",
         "source": "https://github.com/clydebaron2000/BCShw6",
-        "img": "img/WR.PNG",
+        "img": "dist/img/WR.PNG",
         "skillsUsed": {
             "technical": ["HTML5", "CSS3", "JS", "APIs", "openWeather API", "VS Code", "Git", "Git Bash", "Git Hub"],
             "soft": ["Protyping", "organization", "problem-solving"]
@@ -61,7 +61,7 @@
         "section": "Project",
         "careerField": "Web Development",
         "source": "https://github.com/clydebaron2000/BCShw5",
-        "img": "img/DS.PNG",
+        "img": "dist/img/DS.PNG",
         "skillsUsed": {
             "technical": ["HTML5", "CSS3", "JS", "Google Maps API", "VS Code", "Git", "Git Bash", "Git Hub", "moment js"],
             "soft": ["Protyping", "organization", "problem-solving"]
@@ -190,5 +190,6 @@
         "type": "phone",
         "faIcon": "fa fa-phone",
         "link": "tel:8582078528"
-    }]
+    }],
+    "lastUpdated": "08/25/2020"
 }

@@ -19,6 +19,7 @@
         }
         .social-icons {
             transform: translate(-1rem, 0);
+            flex-direction: column;
         }
         footer {
             transform: rotate(-90deg) translate(5rem, 6rem);
@@ -27,6 +28,9 @@
     @include media-md {
         .home__name {
             font-size: 5rem;
+        }
+        .social-icons {
+            flex-direction: row;
         }
         footer {
             transform: none;
