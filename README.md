@@ -2,6 +2,9 @@
 
 An HTML resume site that utilizes SCSS, animations, jquery, and much more to professionally showcase my project experience and resume.
 
+![Repo Size](https://img.shields.io/github/repo-size/clydebaron2000/resume)
+![GitHub last commit](https://img.shields.io/github/last-commit/clydebaron2000/resume)
+![License](https://img.shields.io/github/license/clydebaron2000/resume)
 ## Access to the HTML
 
 The active URL for this document is as follows:
