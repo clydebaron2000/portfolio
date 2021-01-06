@@ -11,7 +11,7 @@ An HTML resume site that utilizes SCSS, animations, jquery, and much more to pro
 
 The active URL for this document is as follows:
 
-https://clydebaron2000.github.io/resume/
+https://clydebaron2000.github.io/portfolio/
 
 Click the link to view the full project via Github Pages.
 
